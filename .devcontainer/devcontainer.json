@@ -1,5 +1,5 @@
 {
-  "name": "python-dev",
+  "name": "python-diagrams",
   "dockerComposeFile": [
     "docker-compose.yml"
   ],
@@ -15,23 +15,18 @@
         "typescript.preferences.quoteStyle": "single"
       },
       "extensions": [
-        "adpyke.codesnap",
-        "donjayamanne.python-extension-pack",
-        "dzhavat.git-cheatsheet",
-        "EditorConfig.EditorConfig",
-        "ms-azuretools.vscode-docker",
-        "PKief.material-icon-theme",
-        "streetsidesoftware.code-spell-checker",
-        "wesbos.theme-cobalt2",
         "ms-python.python",
-        //"demystifying-javascript.python-extensions-pack",
-        "frhtylcn.pythonsnippets"
+        "ms-azuretools.vscode-docker",
+        "dzhavat.git-cheatsheet",
+        "wesbos.theme-cobalt2",
+        "PKief.material-icon-theme",
+        "asciidoctor.asciidoctor-vscode"
       ]
     }
   },
-  "service": "python-dev",
+  "service": "python-diagrams",
   "workspaceFolder": "/src",
   "remoteUser": "vscode",
-  "postStartCommand": "python -m pip install -r requirements.txt && pytest-w test . -c './pytest-watcher-config.yaml' ",
+  "postStartCommand": "python -m pip install -r requirements.txt",
   "shutdownAction": "stopCompose"
 }

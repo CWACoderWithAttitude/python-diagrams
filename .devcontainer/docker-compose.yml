@@ -1,9 +1,9 @@
 version: "3.7"
 
 services:
-  python-dev:
-    container_name: python-dev
-    hostname: python-dev.local
+  python-diagrams:
+    container_name: python-diagrams
+    hostname: python-diagrams.local
     build:
       context: .
     working_dir: /src
@@ -12,7 +12,7 @@ services:
     command: >
       bash -c "sleep infinity"
     networks:
-      python-dev-net:
+      python-diagrams-net:
 
 networks:
-  python-dev-net:
+  python-diagrams-net:

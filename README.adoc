@@ -1,0 +1,17 @@
+= python-diagrams
+Dev containter to enable you to build architecture diagrams from code. Based on https://diagrams.mingrammer.com/docs/getting-started/installation[diagrams.mingrammer.com].
+
+== TL;DR 
+Generating diagrams is as easy as coding some python and issuing
+```python
+python on_prem.py
+```
+Will generate your first diagram as `advanced_web_service_with_on-prem.png` (more general: `<diagram title>_<filename>.png`)
+
+== Pre requisits
+0. Ensure you've https://www.docker.com/products/docker-desktop/[Docker Desktop] installed. (Podman could do, too - but i've not verified thisas, yet)
+1. Get VS Code with https://code.visualstudio.com/docs/remote/remote-overview#_remote-development-extension-pack["Remote dev extension pack"]
+
+== How to use
+1. Clone this project https://github[python-diagrams]
+2. Open the previously cloned project and confirm reopening it in a dev container
