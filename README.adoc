@@ -1,7 +1,8 @@
 = python-diagrams
-Dev containter to enable you to build architecture diagrams from code. Based on https://diagrams.mingrammer.com/docs/getting-started/installation[diagrams.mingrammer.com].
 
 == TL;DR 
+Based on https://diagrams.mingrammer.com/docs/getting-started/installation[diagrams.mingrammer.com].
+
 Generating diagrams is as easy as coding some python and issuing
 ```python
 python on_prem.py
